@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Online Code Editor</h1>
+      <button id="run-button">Run</button>
+    </header>
+    <main>
+      <div class="editor">
+        <select id="language-selector">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JS</option>
+        </select>
+        <textarea id="code-input"></textarea>
+      </div>
+      <div class="output">
+        <iframe id="output-frame"></iframe>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
